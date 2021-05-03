@@ -1,0 +1,20 @@
+.containerLogin  {
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 50%;
+  }
+  
+  .containerLogin .row {
+    margin: 0 auto;
+  }
+
+  input:focus {
+    border-bottom: 1px solid gray !important;
+    box-shadow: 0 1px 0 0 gray !important;
+  }
+  label.active {
+    color: gray !important;
+  }
